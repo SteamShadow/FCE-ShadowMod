@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTerrainDataEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <TerrainDataEntry>
+    <Key>Shadow.CEP</Key>
+    <Name>Conveyor Filter Plus</Name>
+    <IconName>Conveyor Belt Filter</IconName>
+    <LayerType>PrimaryTerrain</LayerType>
+    <TopTexture>192</TopTexture>
+    <SideTexture>192</SideTexture>
+    <BottomTexture>192</BottomTexture>
+    <GUITexture>192</GUITexture>
+    <isSolid>false</isSolid>
+    <isTransparent>true</isTransparent>
+    <isHollow>false</isHollow>
+    <isGlass>false</isGlass>
+    <isPassable>false</isPassable>
+    <hasObject>true</hasObject>
+    <hasEntity>true</hasEntity>
+    <Category>Machine</Category>
+    <AudioWalkType>Metal</AudioWalkType>
+    <AudioBuildType>Dirt</AudioBuildType>
+    <AudioDestroyType>None</AudioDestroyType>
+    <tags>
+      <tag>Machinery</tag>
+    </tags>
+    <Values>
+      <ValueEntry>
+        <Key>Shadow.CEPMk1</Key>
+        <Name>Conveyor Filter Plus Mk1</Name>
+        <IconName>Conveyor Belt Filter</IconName>
+        <Description>Removes materials based on set rules</Description>
+      </ValueEntry>
+    </Values>
+  </TerrainDataEntry>
+
+  <TerrainDataEntry>
+    <Key>Shadow.ABP</Key>
+    <Name>Auto Builder Plus</Name>
+    <IconName>Auto Builder</IconName>
+    <LayerType>PrimaryTerrain</LayerType>
+    <TopTexture>143</TopTexture>
+    <SideTexture>143</SideTexture>
+    <BottomTexture>143</BottomTexture>
+    <GUITexture>143</GUITexture>
+    <isSolid>false</isSolid>
+    <isTransparent>false</isTransparent>
+    <isHollow>false</isHollow>
+    <isGlass>false</isGlass>
+    <isPassable>false</isPassable>
+    <hasObject>true</hasObject>
+    <hasEntity>true</hasEntity>
+    <AudioWalkType>Metal</AudioWalkType>
+    <AudioBuildType>Dirt</AudioBuildType>
+    <AudioDestroyType>None</AudioDestroyType>
+    <tags>
+      <tag>Machinery</tag>
+    </tags>
+    <Values>
+      <ValueEntry>
+        <Key>Shadow.ABPMk1</Key>
+        <Name>Auto Builder Plus Mk1</Name>
+        <IconName>Auto Builder</IconName>
+        <Description>Auto Builder Plus Mk1 (Items/Blocks)</Description>
+      </ValueEntry>
+      <ValueEntry>
+        <Key>Shadow.ABPMk2</Key>
+        <Name>Auto Builder Plus Mk2</Name>
+        <IconName>Auto Builder</IconName>
+        <Description>Auto Builder Plus Mk2 (Items/Blocks)</Description>
+      </ValueEntry>
+      <ValueEntry>
+        <Key>Shadow.ABPMk3</Key>
+        <Name>Auto Builder Plus Mk3</Name>
+        <IconName>Auto Builder</IconName>
+        <Description>Auto Builder Plus Mk3 (Items/Blocks)</Description>
+      </ValueEntry>
+      <ValueEntry>
+        <Key>Shadow.ABPMk4</Key>
+        <Name>Auto Builder Plus Mk4</Name>
+        <IconName>Auto Builder</IconName>
+        <Description>Auto Builder Plus Mk4 (Items/Blocks)</Description>
+      </ValueEntry>
+    </Values>
+  </TerrainDataEntry>
+
+</ArrayOfTerrainDataEntry>
+

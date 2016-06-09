@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCraftData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <CraftData>
+    <Key>Shadow.CEPMk1.Recipe1</Key>
+    <Category>logistics</Category>
+    <Tier>0</Tier>
+    <CraftedKey>Shadow.CEPMk1</CraftedKey>
+    <CraftedAmount>1</CraftedAmount>
+    <CraftedTime>15</CraftedTime>
+    <Costs>
+      <CraftCost>
+        <Key>ConveyorBeltFilter</Key>
+        <Amount>1</Amount>
+      </CraftCost>
+      <CraftCost>
+        <Key>BasicPCB</Key>
+        <Amount>1</Amount>
+      </CraftCost>
+    </Costs>
+    <Description>Mk1 Attach to a Storage Hopper to allow types of material entering the conveyor network.</Description>
+    <Hint>Place between hoppers and conveyors</Hint>
+    <ResearchRequirements>
+      <Research>T1 assist machines</Research>
+    </ResearchRequirements>
+    <ResearchCost>1</ResearchCost>
+    <ScanRequirements>
+      <Scan>ConveyorBeltFilter</Scan>
+    </ScanRequirements>
+  </CraftData>
+
+  <CraftData>
+    <Key>Shadow.ABPMk1.Recipe1</Key>
+    <Category>logistics</Category>
+    <Tier>2</Tier>
+    <CraftedKey>Shadow.ABPMk1</CraftedKey>
+    <CraftedAmount>1</CraftedAmount>
+    <CraftedTime>15</CraftedTime>
+    <Costs>
+      <CraftCost>
+        <Key>AutoBuilder</Key>
+        <Amount>1</Amount>
+      </CraftCost>
+      <CraftCost>
+        <Key>LaserEnergyTransmitterMK1</Key>
+        <Amount>1</Amount>
+      </CraftCost>
+    </Costs>
+    <Description>Mk1 Place 'Items/Blocks' from attached Storage Hopper along cardinal directions. Requires power.</Description>
+    <Hint>Why build your own when a machine can do it for you?</Hint>
+    <ResearchRequirements>
+      <Research>T1 assist machines</Research>
+      <Research>T1 Power</Research>
+    </ResearchRequirements>
+    <ResearchCost>1</ResearchCost>
+    <ScanRequirements>
+      <Scan>AutoBuilder</Scan>
+    </ScanRequirements>
+  </CraftData>
+
+  <CraftData>
+    <Key>Shadow.ABPMk2.Recipe1</Key>
+    <Category>logistics</Category>
+    <Tier>2</Tier>
+    <CraftedKey>Shadow.ABPMk2</CraftedKey>
+    <CraftedAmount>1</CraftedAmount>
+    <CraftedTime>15</CraftedTime>
+    <Costs>
+      <CraftCost>
+        <Key>Shadow.ABPMk1</Key>
+        <Amount>1</Amount>
+      </CraftCost>
+      <CraftCost>
+        <Key>LaserEnergyTransmitterMK2</Key>
+        <Amount>3</Amount>
+      </CraftCost>
+    </Costs>
+    <Description>Mk2 Place 'Items/Blocks' from attached Storage Hopper along cardinal directions. Requires power.</Description>
+    <Hint>Why build your own when a machine can do it for you?</Hint>
+    <ResearchRequirements>
+      <Research>T1 assist machines</Research>
+      <Research>T2 Power</Research>
+    </ResearchRequirements>
+    <ResearchCost>1</ResearchCost>
+    <ScanRequirements>
+      <Scan>Shadow.ABPMk1</Scan>
+    </ScanRequirements>
+  </CraftData>
+
+  <CraftData>
+    <Key>Shadow.ABPMk3.Recipe1</Key>
+    <Category>logistics</Category>
+    <Tier>3</Tier>
+    <CraftedKey>Shadow.ABPMk3</CraftedKey>
+    <CraftedAmount>1</CraftedAmount>
+    <CraftedTime>15</CraftedTime>
+    <Costs>
+      <CraftCost>
+        <Key>Shadow.ABPMk2</Key>
+        <Amount>2</Amount>
+      </CraftCost>
+      <CraftCost>
+        <Key>LaserEnergyTransmitterMK3</Key>
+        <Amount>5</Amount>
+      </CraftCost>
+    </Costs>
+    <Description>Mk3 Place 'Items/Blocks' from attached Storage Hopper along cardinal directions. Requires power.</Description>
+    <Hint>Why build your own when a machine can do it for you?</Hint>
+    <ResearchRequirements>
+      <Research>T1 assist machines</Research>
+      <Research>T3 Power</Research>
+    </ResearchRequirements>
+    <ResearchCost>1</ResearchCost>
+    <ScanRequirements>
+      <Scan>Shadow.ABPMk2</Scan>
+    </ScanRequirements>
+  </CraftData>
+
+  <CraftData>
+    <Key>Shadow.ABPMk4.Recipe1</Key>
+    <Category>logistics</Category>
+    <Tier>4</Tier>
+    <CraftedKey>Shadow.ABPMk4</CraftedKey>
+    <CraftedAmount>1</CraftedAmount>
+    <CraftedTime>15</CraftedTime>
+    <Costs>
+      <CraftCost>
+        <Key>Shadow.ABPMk3</Key>
+        <Amount>2</Amount>
+      </CraftCost>
+      <CraftCost>
+        <Key>LaserEnergyTransmitterMK3</Key>
+        <Amount>5</Amount>
+      </CraftCost>
+    </Costs>
+    <Description>Mk4 Place 'Items/Blocks' from attached Storage Hopper along cardinal directions. Requires power.</Description>
+    <Hint>Why build your own when a machine can do it for you?</Hint>
+    <ResearchRequirements>
+      <Research>T1 assist machines</Research>
+      <Research>T3 Power</Research>
+    </ResearchRequirements>
+    <ResearchCost>1</ResearchCost>
+    <ScanRequirements>
+      <Scan>Shadow.ABPMk3</Scan>
+    </ScanRequirements>
+  </CraftData>
+
+</ArrayOfCraftData>
+
+

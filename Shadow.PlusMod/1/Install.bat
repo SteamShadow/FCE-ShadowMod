@@ -1,0 +1,1 @@
+XCOPY /s ..\..\Shadow.PlusMod %AppData%\..\Local\ProjectorGames\FortressCraft\Mods\Shadow.PlusMod\
